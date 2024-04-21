@@ -1,0 +1,974 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background: #F1E0D9;
+    color: #F1E0D9;
+}
+
+ .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background:#F1E0D9;
+ }
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 30x; /* Sesuaikan ukuran logo dengan kebutuhan */
+  height: 47px;
+  margin-bottom: 20px;
+}
+
+.logo a {
+  color: #741C28;
+  text-decoration: none;
+  font-size: 16px; /* Sesuaikan ukuran teks dengan kebutuhan*/
+  font-weight: 500;
+}
+
+ .navbar a{
+    font-size: 16px;
+    color: #DF8989;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: .3s;
+ }
+
+ .navbar a:hover,
+ .navbar a.active {
+    color: #741C28;
+ }
+
+ /* gambar awal */
+.container{
+    display: flex;
+    margin-top: 50px;
+}
+
+/* profile */
+.profile{
+    position: absolute;
+}
+
+.profile img{
+    width: 55px;
+    height: 55px;
+    transform: translateX(180px) translateY(-60px);
+}
+
+.post{
+    position: absolute;
+    width: 645px;
+    height: 55px;
+    background-color: #FDD4CE;
+    border-radius: 50px;
+    border: 1px solid #741C28;
+    transform: translateX(280px)translateY(-60px);
+}
+
+.post p{
+    font-size: 15px;
+    font-family: "Inria Serif", serif;
+    font-weight: bold;
+    color: #741C28;
+    transform: translateX(50px)translateY(15px);
+}
+
+.post img{
+    width: 48px;
+    height: 45px;
+    transform: translateX(590px) translateY(-15px);
+}
+
+/* podcast */
+.podcast{
+    position: absolute;
+    width: 360px;
+    height: 55px;
+    background-color: #FDD4CE;
+    border-radius: 50px;
+    border: 1px solid #741C28;
+    transform: translateX(943px)translateY(-60px);
+}
+
+.podcast img{
+    width: 31px;
+    height: 31px;
+    transform: translateX(120px)translateY(10px);
+}
+
+.podcast p{
+    font-size: 20px;
+    color: #741C28;
+    transform: translateX(160px)translateY(-25px);
+}
+
+/* foto podcastnya */
+.pod{
+    position: absolute;
+}
+
+.pod img{
+    width: 360px;
+    height: 190px;
+    transform: translateX(945px)translateY(20px);
+}
+
+/* contect sebelahnya */
+.cont{
+    position: absolute;
+    height: 1370px;
+    width: 360px;
+    background-color: #FFC0B6;
+    transform: translateX(945px)translateY(240px);
+}
+
+.cont1 img{
+    width: 196px;
+    height: 31px;
+    text-align: center;
+    margin-top: 13px;
+    margin-left: 82px;
+}
+
+/* isian 1 */
+.cont2 .b1{
+    font-size: 12px;
+    color: 8F8787;
+    margin-top: 32px;
+    font-weight: bold;
+    margin-left: 35px;
+    color: #8F8787;
+}
+
+.cont2 .b2{
+    font-size: 16px;
+    color: #741C28;
+    max-width: 249px;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+.cont2 .b3{
+    font-size: 10px;
+    color: #8F8787;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-left: 35px;
+}
+
+.cont2 .b4{
+    font-size: 10px;
+    color: black;
+    margin-top: 10px;
+    max-width: 291px;
+    margin-left: 35px;
+}
+
+.cont2 img{
+    margin-top: 24px;
+    width: 289px;
+    margin-left: 35px;
+}
+
+/* isian 2 */
+.cont3 .q1{
+    font-size: 12px;
+    color: 8F8787;
+    margin-top: 15px;
+    font-weight: bold;
+    margin-left: 35px;
+    color: #8F8787;
+}
+
+.cont3 .q2{
+    font-size: 16px;
+    color: #741C28;
+    max-width: 249px;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+.cont3 .q3{
+    font-size: 10px;
+    color: #8F8787;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-left: 35px;
+}
+
+.cont3 .q4{
+    font-size: 10px;
+    color: black;
+    margin-top: 10px;
+    max-width: 291px;
+    margin-left: 35px;
+}
+
+.cont3 img{
+    margin-top: 24px;
+    width: 289px;
+    margin-left: 35px;
+}
+
+/* isian 3 */
+.cont4 .s1{
+    font-size: 12px;
+    color: 8F8787;
+    margin-top: 15px;
+    font-weight: bold;
+    margin-left: 35px;
+    color: #8F8787;
+}
+
+.cont4 .s2{
+    font-size: 16px;
+    color: #741C28;
+    max-width: 249px;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+.cont4 .s3{
+    font-size: 10px;
+    color: #8F8787;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-left: 35px;
+}
+
+.cont4 .s4{
+    font-size: 10px;
+    color: black;
+    margin-top: 10px;
+    max-width: 291px;
+    margin-left: 35px;
+}
+
+.cont4 img{
+    margin-top: 24px;
+    width: 289px;
+    margin-left: 35px;
+}
+
+/* isian 4 */
+.cont5 .z1{
+    font-size: 12px;
+    color: 8F8787;
+    margin-top: 15px;
+    font-weight: bold;
+    margin-left: 35px;
+    color: #8F8787;
+}
+
+.cont5 .z2{
+    font-size: 16px;
+    color: #741C28;
+    max-width: 249px;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+.cont5 .z3{
+    font-size: 10px;
+    color: #8F8787;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-left: 35px;
+}
+
+.cont5 .z4{
+    font-size: 10px;
+    color: black;
+    margin-top: 10px;
+    max-width: 291px;
+    margin-left: 35px;
+}
+
+.cont5 img{
+    margin-top: 24px;
+    width: 289px;
+    margin-left: 35px;
+}
+
+/* isian 5 */
+.cont6 .d1{
+    font-size: 12px;
+    color: 8F8787;
+    margin-top: 15px;
+    font-weight: bold;
+    margin-left: 35px;
+    color: #8F8787;
+}
+
+.cont6 .d2{
+    font-size: 16px;
+    color: #741C28;
+    max-width: 249px;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+.cont6 .d3{
+    font-size: 10px;
+    color: #8F8787;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-left: 35px;
+}
+
+.cont6 .d4{
+    font-size: 10px;
+    color: black;
+    margin-top: 10px;
+    max-width: 291px;
+    margin-left: 35px;
+}
+
+.cont6 img{
+    margin-top: 24px;
+    width: 289px;
+    margin-left: 35px;
+}
+
+
+
+
+/* bar merah */
+.bar{
+    width: 740px;
+    height: 55px;
+    position: absolute;
+    background-color: #741C28;
+    transform: translateY(19px)translateX(183px);
+}
+
+.bar img{
+    width: 40px;
+    height: 40px;
+}
+
+.bar .st img{
+    transform: translateX(25px)translateY(7px);
+}
+
+.bar .dt img{
+    transform: translateX(50px)translateY(7px);
+}
+
+/* container */
+.container{
+    width: 740px;
+    height: 3000px;
+    background-color: #FFC0B6;
+    margin-top: 175px;
+    margin-left: 183px;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(70px);
+}
+
+/* isi tulisan 1 */
+.container1{
+    margin-top: 58px;
+    width: 570px;
+    height: 145px;
+    margin-left: 95px;
+    position: relative;
+    border: 1px dashed #741C28;
+}
+
+.container1 img{
+    width: 40px;
+    height: 40px;
+}
+
+
+.container1 .pt {
+    position: absolute;
+    color: #741C28;
+    font-size: 10px;
+    font-weight: 200;
+    transform: translateY(-37px) translateX(190px);
+  
+}
+
+.container1 .lt {
+    position: absolute;
+    transform: translateX(50px)translateY(-40px);
+    font-size: 12px;
+    color: black;
+}
+
+.container1 .ct {
+    color: #741C28;
+    font-size: 10px;
+    font-weight: 200; 
+    transform: translateX(50px)translateY(-25px);
+}
+
+.container1 .rt {
+    color: black;
+    font-size: 14.5px;
+    transform: translateX(50px)translateY(-10px);
+    max-width: 480px;   
+}
+
+.container1 .bx-heart{
+    transform: translateX(50px);
+    color: #741C28;
+    font-size: 14px;
+}
+
+.container1 .bx-message-rounded{
+    transform: translateX(60px);
+    color: #741C28;
+    font-size: 14px;
+}
+
+.bx.bx-heart:hover {
+    color: red; /* Ganti warna menjadi merah saat dihover */
+    cursor: pointer; /* Mengubah kursor saat dihover menjadi pointer */
+  }
+
+/* isi tulisan 2 */
+.container2{
+    width: 570px;
+    height: 145px;
+    margin-left: 95px;
+    position: relative;
+    border: 1px dashed #741C28;
+}
+
+.container2 img{
+    width: 40px;
+    height: 40px;
+}
+
+
+.container2 .pt1 {
+    position: absolute;
+    color: #741C28;
+    font-size: 10px;
+    font-weight: 200;
+    transform: translateY(-37px) translateX(190px);
+  
+}
+
+.container2 .lt1 {
+    position: absolute;
+    transform: translateX(50px)translateY(-40px);
+    font-size: 12px;
+    color: black;
+}
+
+.container2 .ct1 {
+    color: #741C28;
+    font-size: 10px;
+    font-weight: 200; 
+    transform: translateX(50px)translateY(-25px);
+}
+
+.container2 .rt1 {
+    color: black;
+    font-size: 14.5px;
+    transform: translateX(50px)translateY(-10px);
+    max-width: 480px;  
+}
+
+.container2 .bx-heart{
+    transform: translateX(50px);
+    color: #741C28;
+    font-size: 14px;
+}
+
+.container2 .bx-message-rounded{
+    transform: translateX(60px);
+    color: #741C28;
+    font-size: 14px;
+}
+
+.bx.bx-heart:hover {
+    color: red; /* Ganti warna menjadi merah saat dihover */
+    cursor: pointer; /* Mengubah kursor saat dihover menjadi pointer */
+  }
+
+/* isi tulisan 3 */
+.container3{
+    width: 570px;
+    height: 145px;
+    margin-left: 95px;
+    position: relative;
+    border: 1px dashed #741C28;
+}
+
+.container3 img{
+    width: 40px;
+    height: 40px;
+}
+
+
+.container3 .pt2 {
+    position: absolute;
+    color: #741C28;
+    font-size: 10px;
+    font-weight: 200;
+    transform: translateY(-37px) translateX(190px);
+  
+}
+
+.container3 .lt2 {
+    position: absolute;
+    transform: translateX(50px)translateY(-40px);
+    font-size: 12px;
+    color: black;
+}
+
+.container3 .ct2 {
+    color: #741C28;
+    font-size: 10px;
+    font-weight: 200; 
+    transform: translateX(50px)translateY(-25px);
+}
+
+.container3 .rt2 {
+    color: black;
+    font-size: 14.5px;
+    transform: translateX(50px)translateY(-10px);
+    max-width: 480px;  
+}
+
+.container3 .bx-heart{
+    transform: translateX(50px);
+    color: #741C28;
+    font-size: 14px;
+}
+
+.container3 .bx-message-rounded{
+    transform: translateX(60px);
+    color: #741C28;
+    font-size: 14px;
+}
+
+.bx.bx-heart:hover {
+    color: red; /* Ganti warna menjadi merah saat dihover */
+    cursor: pointer; /* Mengubah kursor saat dihover menjadi pointer */
+  }
+
+
+/* isi tulisan 4 */
+.container4{
+    width: 570px;
+    height: 145px;
+    margin-left: 95px;
+    position: relative;
+    border: 1px dashed #741C28;
+}
+
+.container4 img{
+    width: 40px;
+    height: 40px;
+}
+
+
+.container4 .pt3 {
+    position: absolute;
+    color: #741C28;
+    font-size: 10px;
+    font-weight: 200;
+    transform: translateY(-37px) translateX(190px);
+  
+}
+
+.container4 .lt3 {
+    position: absolute;
+    transform: translateX(50px)translateY(-40px);
+    font-size: 12px;
+    color: black;
+}
+
+.container4 .ct3 {
+    color: #741C28;
+    font-size: 10px;
+    font-weight: 200; 
+    transform: translateX(50px)translateY(-25px);
+}
+
+.container4 .rt3 {
+    color: black;
+    font-size: 14.5px;
+    transform: translateX(50px)translateY(-10px);
+    max-width: 480px;  
+}
+
+.container4 .bx-heart{
+    transform: translateX(50px);
+    color: #741C28;
+    font-size: 14px;
+}
+
+.container4 .bx-message-rounded{
+    transform: translateX(60px);
+    color: #741C28;
+    font-size: 14px;
+}
+
+.bx.bx-heart:hover {
+    color: red; /* Ganti warna menjadi merah saat dihover */
+    cursor: pointer; /* Mengubah kursor saat dihover menjadi pointer */
+  }
+
+
+/* isi tulisan 5 */
+.container5{
+    width: 570px;
+    height: 145px;
+    margin-left: 95px;
+    position: relative;
+    border: 1px dashed #741C28;
+}
+
+.container5 img{
+    width: 40px;
+    height: 40px;
+}
+
+
+.container5 .pt4 {
+    position: absolute;
+    color: #741C28;
+    font-size: 10px;
+    font-weight: 200;
+    transform: translateY(-37px) translateX(190px);
+  
+}
+
+.container5 .lt4 {
+    position: absolute;
+    transform: translateX(50px)translateY(-40px);
+    font-size: 12px;
+    color: black;
+}
+
+.container5 .ct4 {
+    color: #741C28;
+    font-size: 10px;
+    font-weight: 200; 
+    transform: translateX(50px)translateY(-25px);
+}
+
+.container5 .rt4 {
+    color: black;
+    font-size: 14.5px;
+    transform: translateX(50px)translateY(-10px);
+    max-width: 480px;  
+}
+
+.container5 .bx-heart{
+    transform: translateX(50px);
+    color: #741C28;
+    font-size: 14px;
+}
+
+.container5 .bx-message-rounded{
+    transform: translateX(60px);
+    color: #741C28;
+    font-size: 14px;
+}
+
+.bx.bx-heart:hover {
+    color: red; /* Ganti warna menjadi merah saat dihover */
+    cursor: pointer; /* Mengubah kursor saat dihover menjadi pointer */
+  }
+
+/* isi tulisan 6 */
+.container6{
+    width: 570px;
+    height: 145px;
+    margin-left: 95px;
+    position: relative;
+    border: 1px dashed #741C28;
+}
+
+.container6 img{
+    width: 40px;
+    height: 40px;
+}
+
+
+.container6 .pt5 {
+    position: absolute;
+    color: #741C28;
+    font-size: 10px;
+    font-weight: 200;
+    transform: translateY(-37px) translateX(190px);
+  
+}
+
+.container6 .lt5 {
+    position: absolute;
+    transform: translateX(50px)translateY(-40px);
+    font-size: 12px;
+    color: black;
+}
+
+.container6 .ct5 {
+    color: #741C28;
+    font-size: 10px;
+    font-weight: 200; 
+    transform: translateX(50px)translateY(-25px);
+}
+
+.container6 .rt5 {
+    color: black;
+    font-size: 14.5px;
+    transform: translateX(50px)translateY(-10px);
+    max-width: 480px;  
+}
+
+.container6 .bx-heart{
+    transform: translateX(50px);
+    color: #741C28;
+    font-size: 14px;
+}
+
+.container6 .bx-message-rounded{
+    transform: translateX(60px);
+    color: #741C28;
+    font-size: 14px;
+}
+
+.bx.bx-heart:hover {
+    color: red; /* Ganti warna menjadi merah saat dihover */
+    cursor: pointer; /* Mengubah kursor saat dihover menjadi pointer */
+  }
+
+/* isi tulisan 7 */
+.container7{
+    width: 570px;
+    height: 145px;
+    margin-left: 95px;
+    position: relative;
+    border: 1px dashed #741C28;
+}
+
+.container7 img{
+    width: 40px;
+    height: 40px;
+}
+
+
+.container7 .pt6 {
+    position: absolute;
+    color: #741C28;
+    font-size: 10px;
+    font-weight: 200;
+    transform: translateY(-37px) translateX(190px);
+  
+}
+
+.container7 .lt6 {
+    position: absolute;
+    transform: translateX(50px)translateY(-40px);
+    font-size: 12px;
+    color: black;
+}
+
+.container7 .ct6 {
+    color: #741C28;
+    font-size: 10px;
+    font-weight: 200; 
+    transform: translateX(50px)translateY(-25px);
+}
+
+.container7 .rt6 {
+    color: black;
+    font-size: 14.5px;
+    transform: translateX(50px)translateY(-10px);
+    max-width: 480px;  
+}
+
+.container7 .bx-heart{
+    transform: translateX(50px);
+    color: #741C28;
+    font-size: 14px;
+}
+
+.container7 .bx-message-rounded{
+    transform: translateX(60px);
+    color: #741C28;
+    font-size: 14px;
+}
+
+.bx.bx-heart:hover {
+    color: red; /* Ganti warna menjadi merah saat dihover */
+    cursor: pointer; /* Mengubah kursor saat dihover menjadi pointer */
+  }
+
+  /* isi tulisan 8 */
+.container8{
+    width: 570px;
+    height: 145px;
+    margin-left: 95px;
+    position: relative;
+    border: 1px dashed #741C28;
+}
+
+.container8 img{
+    width: 40px;
+    height: 40px;
+}
+
+
+.container8 .pt7 {
+    position: absolute;
+    color: #741C28;
+    font-size: 10px;
+    font-weight: 200;
+    transform: translateY(-37px) translateX(190px);
+  
+}
+
+.container8 .lt7 {
+    position: absolute;
+    transform: translateX(50px)translateY(-40px);
+    font-size: 12px;
+    color: black;
+}
+
+.container8 .ct7 {
+    color: #741C28;
+    font-size: 10px;
+    font-weight: 200; 
+    transform: translateX(50px)translateY(-25px);
+}
+
+.container8 .rt7 {
+    color: black;
+    font-size: 14.5px;
+    transform: translateX(50px)translateY(-10px);
+    max-width: 480px;  
+}
+
+.container8 .bx-heart{
+    transform: translateX(50px);
+    color: #741C28;
+    font-size: 14px;
+}
+
+.container8 .bx-message-rounded{
+    transform: translateX(60px);
+    color: #741C28;
+    font-size: 14px;
+}
+
+.bx.bx-heart:hover {
+    color: red; /* Ganti warna menjadi merah saat dihover */
+    cursor: pointer; /* Mengubah kursor saat dihover menjadi pointer */
+  }
+
+    /* isi tulisan 9 */
+.container9{
+    width: 740px;
+    height: 230px;
+    position: relative;
+    border: 1px dashed #741C28;
+    background-color: #DAB5B0;
+}
+
+.container9 .et{
+    margin-left: 5px;
+    font-family: "Inria Serif", serif;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #741C28;
+}
+.container9 img{
+    width: 550px;
+    height: 151px;
+    transform: translateX(100px);
+}
+
+    /* isi tulisan 10 */
+    .container10{
+        width: 740px;
+        height: 230px;
+        position: relative;
+        border: 1px dashed #741C28;
+        background-color: #DAB5B0;
+    }
+    
+    .container10 .et1{
+        margin-left: 5px;
+        font-family: "Inria Serif", serif;
+        font-size: 20px;
+        margin-top: 10px;
+        color: #741C28;
+    }
+    .container10 img{
+        width: 550px;
+        height: 151px;
+        transform: translateX(100px);
+    }
+
+     /* footer */
+     .footer {
+        position: absolute; /* Memastikan .footer adalah kontainer relatif */
+        background-image: url('kom/futer.png');
+        background-size: cover;
+        width: 1500px;
+        height: 455.24px;
+        transform: translateX(-200px)translateY(100px);
+    }
+
+      .footer a {
+        position: absolute; /* Mengubah ikon 'a' menjadi posisi absolut */
+        top: 50%; /* Menempatkannya di tengah vertikal */
+        right: 0; /* Menempatkannya di sisi kanan */
+        padding: 10px; /* Tambahan padding untuk ikon */
+        transform: translateX(-192px) translateY(-100px);
+       
+      }
+      
+      .footer a:nth-child(1) {
+        right: 0; /* Atur jarak antara ikon pertama */
+      }
+    
+      .footer a:nth-child(2) {
+        right: 40px; /* Atur jarak antara ikon */
+      }
+      
+      .footer a:nth-child(3) {
+        right: 80px; /* Atur jarak antara ikon */
+      }
+      
+      /* Gaya ikon */
+      .footer a i {
+        color:white; /* Warna ikon */
+        font-size: 24px; /* Ukuran ikon */
+      }
+      
+      /* Contoh pengaturan gaya lainnya */
+      .footer a i:hover {
+        color: pink;
+      }
+
+    

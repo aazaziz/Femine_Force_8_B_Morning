@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background: #B44957;
+    color: #B44957;
+}
+
+ .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background:#B44957;
+ }
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 30x; /* Sesuaikan ukuran logo dengan kebutuhan */
+  height: 47px;
+  margin-bottom: 20px;
+}
+
+.logo a {
+  color: #741C28;
+  text-decoration: none;
+  font-size: 16px; /* Sesuaikan ukuran teks dengan kebutuhan*/
+  font-weight: 500;
+}
+
+ .navbar a{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: .3s;
+ }
+
+ .navbar a:hover,
+ .navbar a.active {
+    color: #741C28;
+ }
+
+ /*faq gambar */
+.faqpict{
+    text-align: center;
+    margin-top: 120px;
+}
+
+.faqpict img{
+    width: 1310px;
+    height: 363.13px;
+}
+
+/*ketentuan */
+.ketentuan{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.ketentuan p{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+}
+
+/* syarat */
+.syarat{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.syarat p{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+}
+
+/* ketentuan1 */
+.ketentuan1{
+    margin-top: 20px;
+    margin-left: 80px;
+    max-width: 1250px;
+}
+
+.ketentuan1 p{
+    font-size: 20px;
+    color: white;
+    text-align: left;
+
+}
+
+/* ketentuan2 */
+.ketentuan2{
+    margin-top: 10px;
+    margin-left: 80px;
+    max-width: 1250px;
+}
+
+.ketentuan2 p{
+    font-size: 20px;
+    color: white;
+    text-align: left;
+
+}
+
+/* ketentuan3 */
+.ketentuan3{
+    margin-top: 10px;
+    margin-left: 80px;
+    max-width: 1250px;
+}
+
+.ketentuan3 p{
+    font-size: 20px;
+    color: white;
+    text-align: left;
+
+}
+
+/* ketentuan4 */
+.ketentuan4{
+    margin-top: 10px;
+    margin-left: 80px;
+    max-width: 1250px;
+}
+
+.ketentuan4 p{
+    font-size: 20px;
+    color: white;
+    text-align: left;
+
+}
+
+
+/*kolaborasi */
+.kolaborasi{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.kolaborasi p{
+    font-size: 24px;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* kolaborasi 1 */
+.kolaborasi1{
+    margin-top: 20px;
+    margin-left: 80px;
+    max-width: 1250px;
+}
+
+.kolaborasi1 p {
+    font-size: 20px;
+    color: white;
+    text-align: left;
+}
+
+/* kolaborasi 2 */
+.kolaborasi2{
+    margin-top: 10px;
+    margin-left: 80px;
+    max-width: 1250px;
+}
+
+.kolaborasi2 p {
+    font-size: 20px;
+    color: white;
+    text-align: left;
+}
+
+/* kolaborasi 3 */
+.kolaborasi3{
+    margin-top: 10px;
+    margin-left: 80px;
+    max-width: 1250px;
+}
+
+.kolaborasi3 p {
+    font-size: 20px;
+    color: white;
+    text-align: left;
+}
+
+/* kolaborasi 4 */
+.kolaborasi4{
+    margin-top: 10px;
+    margin-left: 80px;
+    max-width: 1250px;
+}
+
+.kolaborasi4 p {
+    font-size: 20px;
+    color: white;
+    text-align: left;
+}
+
+/* kontak kami */
+.kontakkami{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.kontakkami p{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+/* gambar form */
+.form{
+    position: absolute;
+}
+.form img{
+    width: 235px;
+    height: 235px;
+    transform: translateY(30px) translateX(920px);
+
+}
+
+/* text nama */
+.nama{
+    margin-top: 20px;
+    margin-left: 300px;
+}
+.nama p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+}
+
+/* box nama */
+.input-box {
+    width: 551px; /* Lebar kotak input */
+    height: 66px; /* Tinggi kotak input */
+    color: white;
+    padding: 10px; /* Ruang di dalam kotak */
+    margin-top: 5px; /* Ruang di sekitar kotak */
+    margin-left: 290px;
+    border-radius: 10px;
+    border: 2px white;
+  }
+  
+  .input-box input {
+    width: 540px; /* Lebar input teks */
+    height: 55px; /* Tinggi input teks */
+    font-size: 18px; /* Ukuran font teks */
+    border-radius: 10px;
+    border: 2px white;
+    outline: none; /* Hilangkan garis fokus saat diklik */
+  }
+
+  .input-box input::placeholder {
+    padding-left: 10px;
+  }
+
+  /* email */
+  .email{
+    margin-top: 10px;
+    margin-left: 300px;
+  }
+
+  .email p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+  }
+
+  /* box email */
+  .input-box2 {
+    width: 540px; /* Lebar kotak input */
+    height: 66px; /* Tinggi kotak input */
+    color: white;
+    padding: 10px; /* Ruang di dalam kotak */
+    margin-top: 5px; /* Ruang di sekitar kotak */
+    margin-left: 290px;
+    border-radius: 10px;
+    border: 2px white;
+  }
+  
+  .input-box2 input {
+    width: 540px; /* Lebar input teks */
+    height: 55px; /* Tinggi input teks */
+    font-size: 18px; /* Ukuran font teks */
+    border-radius: 10px;
+    border: 2px white;
+    outline: none; /* Hilangkan garis fokus saat diklik */
+  }
+
+  .input-box2 input::placeholder {
+    padding-left: 10px;
+  }
+
+  /* subjek */
+  .subjek{
+    margin-top: 10px;
+    margin-left: 300px;
+  }
+
+  .subjek p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+  }
+
+    /* box subjek */
+    .input-box3 {
+        width: 930px; /* Lebar kotak input */
+        height: 66px; /* Tinggi kotak input */
+        color: white;
+        padding: 10px; /* Ruang di dalam kotak */
+        margin-top: 5px; /* Ruang di sekitar kotak */
+        margin-left: 290px;
+        border-radius: 10px;
+        border: 2px white;
+      }
+      
+      .input-box3 input {
+        width: 890px; /* Lebar input teks */
+        height: 55px; /* Tinggi input teks */
+        font-size: 18px; /* Ukuran font teks */
+        border-radius: 10px;
+        border: 2px white;
+        outline: none; /* Hilangkan garis fokus saat diklik */
+      }
+    
+      .input-box3 input::placeholder {
+        padding-left: 10px;
+      }
+
+
+  /* isi */
+  .isi{
+    margin-top: 10px;
+    margin-left: 300px;
+  }
+
+  .isi p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+  }
+
+    /* box subjek */
+    .input-box4 {
+        width: 930px; /* Lebar kotak input */
+        height: 334px; /* Tinggi kotak input */
+        color: white;
+        padding: 10px; /* Ruang di dalam kotak */
+        margin-top: 5px; /* Ruang di sekitar kotak */
+        margin-left: 290px;
+        border-radius: 10px;
+        border: 2px white;
+      }
+      
+      .input-box4 input {
+        width: 890px; /* Lebar input teks */
+        height: 300px; /* Tinggi input teks */
+        font-size: 18px; /* Ukuran font teks */
+        border-radius: 10px;
+        border: 2px white;
+        outline: none; /* Hilangkan garis fokus saat diklik */
+        top: 0%;
+      }
+    
+      .input-box4 input::placeholder {
+        padding-left: 10px;
+        transform: translateY(-120px);
+      }
+
+      /*button kirim */
+      .kirim{
+        position: absolute;
+      }
+
+      .kirim button{
+        background-color: #B44957;
+        color: white;
+        padding: 10px 20px; /* Sesuaikan dengan ukuran yang diinginkan */
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transform: translateX(1080px)translateY(-90px);
+        font-size: 14px;
+        font-weight: bold;
+      }
+
+      .kirim button:hover{
+        background-color: pink;
+      }
+
+      /* teks panjang */
+      .long{
+        margin-left: 300px;
+      }
+      .long p{
+        font-size: 14px;
+        max-width: 890px;
+        color: white;
+      }
+
+      /* button icon */
+      .btn {
+        position: absolute;
+        background-color: white; /* Warna latar belakang */
+        color: white; /* Warna teks */
+        border: none; /* Tanpa border */
+        border-radius: 5px; /* Radius sudut */
+        cursor: pointer; /* Kursor pointer saat diarahkan */
+        transform: translateY(-5px)translateX(1090px);
+      }
+      
+      .btn i {
+        margin: 5px 5px;
+        font-size: 25px;
+        color: #B44957;
+      }
+      
+      .btn:hover {
+        background-color: pink; /* Warna latar belakang saat dihover */
+      }
+
+      /* kolab gede */
+      .kolab-big{
+        margin-top: 60px;
+      }
+
+      .kolab-big p{
+        font-size: 40px;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      /* btn kolaborasi */
+      .kolaborasi-btn {
+        position: absolute;
+        background-color: white; /* Warna latar */
+        border: none; /* Menghapus garis tepi */
+        color: #B44957; /* Warna teks */
+        padding: 15px 30px; /* Padding vertikal dan horizontal */
+        text-align: center; /* Teks di tengah */
+        text-decoration: none; /* Menghapus garis bawah */
+        display: inline-block;
+        font-size: 26px; /* Ukuran teks */
+        border-radius: 50px; /* Border radius */
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Bayangan */
+        width: auto; /* Panjang horizontal */
+        font-weight: bold;
+        transform: translateY(20px)translateX(425px);
+        cursor: pointer;
+      }
+
+      .kolaborasi-btn:hover{
+        background-color: pink;
+      }
+      /* footer */
+      .footer {
+        margin-top: 200px;
+        position: relative; /* Memastikan .footer adalah kontainer relatif */
+        background-image: url('faq/footend.png');
+        background-size: cover;
+        width: 1500px;
+        height: 455.24px;
+    }
+    
+    .footer a {
+        position: absolute; /* Mengubah ikon 'a' menjadi posisi absolut */
+        top: 50%; /* Menempatkannya di tengah vertikal */
+        right: 0; /* Menempatkannya di sisi kanan */
+        padding: 10px; /* Tambahan padding untuk ikon */
+        transform: translateX(-193px) translateY(-120px);
+       
+      }
+      
+      .footer a:nth-child(1) {
+        right: 0; /* Atur jarak antara ikon pertama */
+      }
+    
+      .footer a:nth-child(2) {
+        right: 40px; /* Atur jarak antara ikon */
+      }
+      
+      .footer a:nth-child(3) {
+        right: 80px; /* Atur jarak antara ikon */
+      }
+      
+      /* Gaya ikon */
+      .footer a i {
+        color:white; /* Warna ikon */
+        font-size: 24px; /* Ukuran ikon */
+      }
+      
+      /* Contoh pengaturan gaya lainnya */
+      .footer a i:hover {
+        color: pink;
+      }

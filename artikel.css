@@ -1,0 +1,644 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background: white;
+    color: white;
+}
+
+ .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background:white;
+ }
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 30x;
+  height: 47px;
+  margin-bottom: 20px;
+}
+
+.logo a {
+  color: #741C28;
+  text-decoration: none;
+  font-size: 16px; 
+  font-weight: 500;
+}
+
+ .navbar a{
+    font-size: 16px;
+    color: #DF8989;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: .3s;
+ }
+
+ .navbar a:hover,
+ .navbar a.active {
+    color: #741C28;
+ }
+  
+.gambar_our{
+  margin-top: 120px;
+  text-align: center;
+}
+.gambar_our img{
+  width: 1440px;
+  height: 300px;
+}
+
+
+
+.our{
+  min-height: 100vh;
+  display: flex;
+  background-color: #ffff;
+  background-size: cover;
+  background-position: center;
+  padding: 10 7 300;
+}
+.our .OurContent{
+  width: 100%;
+  float: left;
+  padding: 7px;
+  text-align: center;
+}
+
+
+.our-col{
+  flex-basis: calc(30% - 20px);
+  border-radius: 10px;
+  margin-bottom: 1%;
+  text-align: left;
+  margin-right: 1px;
+  margin-left: 2px;
+  padding: 35px;
+}
+
+.our-col img{
+  width: 100%;
+  border-radius: 10px;
+  height: 13rem;
+  width: auto;
+}
+.row{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+  align-items: flex-start; 
+  flex-wrap: wrap;
+ 
+}
+
+.our-col h1{
+  color: #B3B2B2;
+  font-size: 12px;
+  margin-top: 9px;
+}
+
+.our-col p{
+  padding: 0;
+  color: #000000;
+  font-size: 12px;
+}
+
+.our-col h3{
+  font-size: 16px;
+  color: #000000;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+
+.gambar_detail_artikel{
+  margin-top: 120px;
+  text-align: center;
+}
+
+.gambar_detail_artikel img{
+  width: 1437px;
+  height: 96px;
+}
+
+.judul_detail{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.judul_detail p{
+  font-size: 26px;
+  color: #741C28;
+  
+}
+
+.detail{
+  min-height: 100vh;
+  display: flex;
+  background-color: #ffff;
+  background-position: center;
+  padding: 10 7 300;
+}
+
+
+.detail-col{
+  flex-basis: calc(30% - 20px);
+  border-radius: 10px;
+  margin-bottom: 1%;
+  text-align: left;
+  margin-right: 1px;
+  margin-left: 1px;
+  padding: 35px;
+}
+
+.detail-col img{
+  width: 100%;
+  border-radius: 10px;
+  height: 10rem;
+  width: auto;
+  text-align: center;
+  align-items: center;
+}
+
+
+.detail-col p{
+  padding: 0;
+  font-size: 20px;
+  color: #741C28;
+}
+
+.detail-col h3{
+  font-size: 16px;
+  color: #000000;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+  max-width: 271px;
+
+}
+
+.footer_detail{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.footer_detail img{
+  width: 1437px;
+  height: 74px;
+}
+
+.beauty{
+  min-height: 100vh;
+  display: flex;
+  background-color: #ffff;
+  background-size: cover;
+  background-position: center;
+  padding: 10 7 300;
+  
+}
+.beauty .BeautyContent{
+  width: 100%;
+  float: left;
+  padding: 7px;
+  text-align: center;
+  
+}
+.beauty .BeautyContent .bc img{
+  max-width: 1130px;
+  margin-top: 100px;
+  margin-bottom: 5px;
+  width: 1130px;
+  height: 330px; 
+}
+
+.beauty .BeautyContent a.tombol1{
+  background-color: #EEBECC;
+  display: inline-block;
+  text-decoration: none;
+  padding: 2px 1px 2px 1px;
+  margin: 10px;
+  border-radius: 20px;
+  float: right; 
+}
+
+
+.beauty .BeautyContent a.tombol1 h2{
+  margin-top: -90px;
+  font-size: 15px;
+}
+
+.beauty .BeautyContent h1{
+  font-size: 20px;
+  color: #000000;
+  text-align: left;
+  padding: 50px;
+  margin-top: -40px;
+}
+.beauty .BeautyContent p{
+  font-size: 15px;
+  color: #000000;
+  text-align: left;
+  margin-top: -80px;
+  padding: 50px; 
+}
+.beauty .BeautyContent a{
+  font-size: 15px;
+  color: #000000;
+  text-decoration: none;
+}
+.beauty .Baca1Content p{
+  font-size: 15px;
+  color: #000000;
+  text-align: left;
+  margin-top: 70px;
+  padding: 50px;
+}
+.beauty .Baca1Content a.tombol1{
+  background-color: #EEBECC;
+  display: inline-block;
+  text-decoration: none;
+  padding: 4px 10px 9px 10px;
+  margin: 10px;
+  border-radius: 20px;
+  float: right;
+}
+
+.beauty .Baca1Content a.tombol1 h2{
+  margin-top: 10px;
+  font-size: 15px;
+  color: #000000;
+}
+
+.beauty .Baca2Content p{
+  font-size: 15px;
+  color: #000000;
+  text-align: left;
+  margin-top: 70px;
+  padding: 50px;
+}
+.beauty .Baca2Content a{
+  font-size: 15px;
+  color: #000000;
+  padding: 50px;
+  text-decoration: none;
+}
+.beauty .Baca2Content a.tombol1{
+  background-color: #EEBECC;
+  display: inline-block;
+  text-decoration: none;
+  padding: 4px 10px 9px 10px;
+  margin: 10px;
+  border-radius: 20px;
+  float: right;
+}
+
+.beauty .Baca2Content a.tombol1 h2{
+  margin-top: 10px;
+  font-size: 15px;
+  color: #000000;
+ 
+}
+
+.beauty .BeautyContent .bc2 img  {
+  max-width: 190px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 190px;
+  height: 104px; 
+}
+.beauty .Baca3Content .bc2 img  {
+  max-width: 190px;
+  width: 190px;
+  height: 104px; 
+}
+.beauty .Baca3Content p{
+  font-size: 15px;
+  color: #000000;
+  text-align: left;
+  padding: 15px;
+  margin-top: -1px; 
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.beauty .Baca3Content a{
+  font-size: 15px;
+  color: #000000;
+  padding: 10px;
+  text-decoration: none;
+}
+.beauty .Baca3Content a.tombol1{
+  background-color: #EEBECC;
+  display: inline-block;
+  text-decoration: none;
+  padding: 4px 10px 9px 10px;
+  margin: 10px;
+  border-radius: 20px;
+  float: right;
+}
+
+.beauty .Baca3Content a.tombol1 h2{
+  margin-top: 10px;
+  font-size: 15px;
+  color: #000000;
+}
+.beauty .BeautyContent h2{
+  font-size: 20px;
+  color: #000000;
+  text-align: center;
+  padding: 100px;
+  margin-top: -1px;
+  margin-bottom: -90px;
+}
+.beauty .BeautyContent .bc4 img{
+  max-width: 1130px;
+  margin-top: -1px;
+  margin-bottom: 5px;
+  width: 1130px;
+  height: 330px; 
+}
+.beauty .Baca4Content p{
+  font-size: 15px;
+  color: #000000;
+  text-align: left;
+  margin-top: 70px;
+  padding: 50px;
+}
+
+ul {
+  list-style-type: none;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.bulleted-list li {
+  margin-bottom: 5px;
+  padding-left: 20px;
+  position: relative;
+  margin-left: 80px;
+}
+
+.bulleted-list li::before {
+  content: "\2022"; 
+  color: #000000; 
+  font-size: 16px;
+  position: absolute;
+  left: 0px;
+  top: 0;
+}
+
+.beauty .Baca4Content a.tombol1{
+  background-color: #EEBECC;
+  display: inline-block;
+  text-decoration: none;
+  padding: 4px 10px 9px 10px;
+  margin: 10px;
+  border-radius: 20px;
+  float: right;
+}
+
+.beauty .Baca4Content a.tombol1 h2{
+  margin-top: 10px;
+  font-size: 15px;
+  color: #000000;
+}
+.beauty .Baca6Content p{
+  font-size: 15px;
+  color: #000000;
+  text-align: left;
+  margin-top: 70px;
+  padding: 50px;
+}
+.beauty .Baca6Content a.tombol1{
+  background-color: #EEBECC;
+  display: inline-block;
+  text-decoration: none;
+  padding: 4px 10px 9px 10px;
+  margin: 10px;
+  border-radius: 20px;
+  float: right;
+}
+
+.beauty .Baca6Content a.tombol1 h2{
+  margin-top: 10px;
+  font-size: 15px;
+  color: #000000;
+}
+.beauty .Baca9Content p{
+  font-size: 15px;
+  color: #000000;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: -40px;
+  padding: 50px;
+}
+.beauty .Baca9Content a{
+  font-size: 15px;
+  color: #000000;
+  padding: 50px;
+  text-decoration: none;
+}
+.beauty .Baca9Content a.tombol1{
+  background-color: #EEBECC;
+  display: inline-block;
+  text-decoration: none;
+  padding: 4px 10px 9px 10px;
+  margin: 10px;
+  border-radius: 20px;
+  float: right;
+}
+
+.beauty .Baca9Content a.tombol1 h2{
+  margin-top: 10px;
+  font-size: 15px;
+  color: #000000;
+}
+.beauty .Baca92Content p{
+  font-size: 15px;
+  color: #000000;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: -40px;
+  padding: 50px;
+}
+.beauty .Baca92Content a{
+  font-size: 15px;
+  color: #000000;
+  padding: 1px;
+  text-decoration: none; 
+}
+.beauty .Baca92Content a.tombol1{
+  background-color: #EEBECC;
+  display: inline-block;
+  text-decoration: none;
+  padding: 4px 10px 9px 10px;
+  margin: 10px;
+  border-radius: 20px;
+  float: right;
+}
+
+.beauty .Baca92Content a.tombol1 h2{
+  margin-top: 10px;
+  font-size: 15px;
+  color: #000000;
+}
+.beauty .Baca10Content p{
+  font-size: 15px;
+  color: #000000;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: -40px;
+  padding: 50px;
+}
+.beauty .Baca10Content a{
+  font-size: 15px;
+  color: #000000;
+  padding: 1px;
+  text-decoration: none; 
+}
+.beauty .Baca10Content a.tombol1{
+  background-color: #EEBECC;
+  display: inline-block;
+  text-decoration: none;
+  padding: 4px 10px 9px 10px;
+  margin: 10px;
+  border-radius: 20px;
+  float: right;
+}
+
+.beauty .Baca10Content a.tombol1 h2{
+  margin-top: 10px;
+  font-size: 15px;
+  color: #000000;
+}
+.beauty .Baca11Content p{
+  font-size: 15px;
+  color: #000000;
+  text-align: left;
+  margin-top: 65px;
+  margin-bottom: -50px;
+  padding: 50px;
+}
+.beauty .Baca11Content a{
+  font-size: 15px;
+  color: #000000;
+  padding: 50px;
+  text-decoration: none; 
+}
+.beauty .Baca11Content .bc11 img {
+  max-width: 300px;
+  margin-top: -80px;
+  margin-bottom: 5px;
+  width: 300px;
+  height: 180px;
+}
+.beauty .Baca11Content a.tombol1{
+  background-color: #EEBECC;
+  display: inline-block;
+  text-decoration: none;
+  padding: 4px 10px 9px 10px;
+  margin: 10px;
+  border-radius: 20px;
+  float: right;
+}
+
+.beauty .Baca11Content a.tombol1 h2{
+  margin-top: 10px;
+  font-size: 15px;
+  color: #000000;
+}
+
+.beauty .Baca12Content p{
+  font-size: 15px;
+  color: #000000;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: -50px;
+  padding: 50px;
+}
+.beauty .Baca12Content a{
+  font-size: 15px;
+  color: #000000;
+  padding: 2x;
+  text-decoration: none; 
+}
+.beauty .Baca12Content a.tombol1{
+  background-color: #EEBECC;
+  display: inline-block;
+  text-decoration: none;
+  padding: 4px 10px 9px 10px;
+  margin: 10px;
+  border-radius: 20px;
+  float: right;
+}
+
+.beauty .Baca12Content a.tombol1 h2{
+  margin-top: 10px;
+  font-size: 15px;
+  color: #000000;
+}
+
+
+
+/* footer */
+.footer {
+  margin-top: 100px;
+  position: relative; /* Memastikan .footer adalah kontainer relatif */
+  background-image: url('images/footer_artikel.png');
+  background-size: cover;
+  width: 1500px;
+  height: 455.24px;
+}
+
+.footer a {
+  position: absolute; /* Mengubah ikon 'a' menjadi posisi absolut */
+  top: 50%; /* Menempatkannya di tengah vertikal */
+  right: 0; /* Menempatkannya di sisi kanan */
+  padding: 10px; /* Tambahan padding untuk ikon */
+  transform: translateX(-68px) translateY(-120px);
+ 
+}
+
+.footer a:nth-child(1) {
+  right: 0; /* Atur jarak antara ikon pertama */
+}
+
+.footer a:nth-child(2) {
+  right: 40px; /* Atur jarak antara ikon */
+}
+
+.footer a:nth-child(3) {
+  right: 80px; /* Atur jarak antara ikon */
+}
+
+/* Gaya ikon */
+.footer a i {
+  color:black; /* Warna ikon */
+  font-size: 24px; /* Ukuran ikon */
+}
+
+/* Contoh pengaturan gaya lainnya */
+.footer a:hover {
+  color: #ededed;
+}

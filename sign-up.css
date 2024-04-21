@@ -1,0 +1,584 @@
+.daftar1 {
+  margin: 0;
+  height: 47px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 900;
+  font-family: inherit;
+  display: flex;
+  align-items: flex-end;
+}
+.daftar-container {
+  width: 1072px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 0 85px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-child35,
+.mdipassword-icon4 {
+  position: absolute;
+  margin: 0 !important;
+}
+.mdipassword-icon4 {
+  height: 24px;
+  width: 24px;
+  bottom: 212px;
+  left: 362px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame-child35 {
+  height: 521px;
+  width: 1099px;
+  top: 0;
+  right: -33px;
+  border-radius: var(--br-31xl);
+  z-index: 1;
+}
+.frame-child36 {
+  height: 593px;
+  width: 1071px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke);
+  display: none;
+  max-width: 100%;
+}
+.logo_masuk {
+  height: 450.5px;
+  width: 317.4px;
+  object-fit: cover;
+}
+.email3,
+.img-6664-2-icon6,
+.mdiuser-icon2 {
+  position: relative;
+  z-index: 3;
+}
+.email3 {
+  width: 183px;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--color-maroon);
+  text-align: center;
+}
+.mdiuser-icon2 {
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mdiuser-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.nama-pengguna2 {
+  width: 116px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-sm);
+  background-color: transparent;
+  height: 17px;
+  position: relative;
+  color: var(--color-gainsboro-100);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+.email-blank1,
+.frame-parent25 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.email-blank1 {
+  flex: 1;
+  border: 0.5px solid var(--color-gray-300);
+  box-sizing: border-box;
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-3xs);
+  min-width: 116px;
+  z-index: 3;
+}
+.frame-parent25 {
+  align-self: stretch;
+  justify-content: center;
+  gap: var(--gap-2xs);
+}
+.password1 {
+  width: 63px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--color-maroon);
+  text-align: center;
+  min-width: 63px;
+  z-index: 3;
+}
+.email-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.solarletter-bold-icon1 {
+  width: 28px;
+  height: 21px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.solarletter-bold-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+}
+.email4 {
+  width: 72px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-sm);
+  background-color: transparent;
+  height: 17px;
+  position: relative;
+  color: var(--color-gainsboro-100);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+.frame-parent26,
+.password-blank1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.password-blank1 {
+  flex: 1;
+  border: 0.5px solid var(--color-gray-300);
+  overflow: hidden;
+  padding: var(--padding-5xs) var(--padding-3xs);
+  min-width: 72px;
+  z-index: 3;
+}
+.frame-parent26 {
+  align-self: stretch;
+  padding: 0 0 var(--padding-9xs);
+  gap: var(--gap-2xs);
+}
+.email5 {
+  width: 121px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--color-maroon);
+  text-align: center;
+  min-width: 121px;
+  z-index: 3;
+}
+.mdipassword-icon5 {
+  width: 21px;
+  height: 28px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.mdipassword-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.kata-sandi2 {
+  width: 102px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-sm);
+  background-color: transparent;
+  height: 17px;
+  position: relative;
+  color: var(--color-gainsboro-100);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+.email-blank2 {
+  flex: 1;
+  border: 0.5px solid var(--color-gray-300);
+  box-sizing: border-box;
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-3xs);
+  min-width: 102px;
+  z-index: 3;
+}
+.email-blank2,
+.frame-parent27,
+.frame-wrapper23 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-parent27 {
+  flex: 1;
+  justify-content: center;
+  gap: var(--gap-sm);
+}
+.frame-wrapper23 {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-9xs);
+  box-sizing: border-box;
+}
+.password2 {
+  width: 251px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--color-maroon);
+  text-align: center;
+  z-index: 3;
+}
+.mdipassword-icon6 {
+  width: 21px;
+  height: 28px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.mdipassword-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.kata-sandi3 {
+  width: 78px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-sm);
+  background-color: transparent;
+  height: 17px;
+  position: relative;
+  color: var(--color-gainsboro-100);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.password-blank2 {
+  flex: 1;
+  border: 0.5px solid var(--color-gray-300);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-4xs);
+  min-width: 78px;
+  z-index: 3;
+}
+.email-group,
+.frame-parent28,
+.frame-wrapper24,
+.password-blank2 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-parent28 {
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-sm);
+}
+.email-group,
+.frame-wrapper24 {
+  align-self: stretch;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.frame-wrapper24 {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-9xs);
+}
+.email-group {
+  flex-direction: column;
+  padding: 0 0 23px;
+  gap: var(--gap-base);
+}
+.daftar2 {
+  width: 79px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 79px;
+}
+
+.login-button1 a{
+  text-decoration: none;
+}
+
+.login-button-wrapper,
+.login-button1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.login-button1 {
+  cursor: pointer;
+  border: 0.5px solid var(--color-gray-300);
+  padding: var(--padding-9xs) var(--padding-4xs) var(--padding-8xs)
+    var(--padding-3xs);
+  background-color: var(--color-maroon);
+  flex: 1;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  z-index: 3;
+}
+.login-button1:hover {
+  background-color: var(--color-indianred-100);
+  border: 0.5px solid var(--color-darkslategray);
+  box-sizing: border-box;
+}
+.login-button-wrapper {
+  align-self: stretch;
+  padding: 0 81px 0 var(--padding-61xl);
+}
+.sudah-memiliki-akun1 a{
+  text-decoration: none;
+  color: #741C28;
+}
+
+.sudah-memiliki-akun1 {
+  height: 13px;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+  color: var(--color-brown);
+  text-align: left;
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.frame-parent29,
+.frame-wrapper25 {
+  display: flex;
+  align-items: flex-start;
+}
+.frame-parent29 {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.frame-wrapper25 {
+  width: 349px;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-25xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-form {
+  margin: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.frame-wrapper22,
+.rectangle-parent14 {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-wrapper22 {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-8xl) 0 0;
+  min-width: 253px;
+}
+.rectangle-parent14 {
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-49xl) 129px var(--padding-23xl);
+  gap: 106.6px;
+  z-index: 2;
+}
+.mdipassword-container,
+.signup {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+}
+.nama-pengguna2,
+.email4,
+.kata-sandi2,
+.kata-sandi3 {
+  color: var(--color-gainsboro-100); 
+}
+
+.nama-pengguna2:focus,
+.email4:focus,
+.kata-sandi2:focus,
+.kata-sandi3:focus {
+  color: black; 
+}
+
+.frame-child35 {
+  border: none;
+}
+
+
+.mdipassword-container {
+  width: 1071px;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+
+.signup {
+  width: 100%;
+  background-color: var(--color-brown);
+  overflow-y: auto;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-118xl) var(--padding-xl) var(--padding-158xl);
+  box-sizing: border-box;
+  gap: var(--gap-51xl);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-whitesmoke);
+  font-family: var(--font-inter);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media screen and (max-width: 1100px) {
+  .rectangle-parent14 {
+    gap: var(--gap-34xl);
+    padding-left: var(--padding-45xl);
+    padding-right: var(--padding-45xl);
+    box-sizing: border-box;
+  }
+  .signup {
+    gap: var(--gap-16xl);
+  }
+}
+@media screen and (max-width: 1025px) {
+  .daftar1 {
+    font-size: var(--font-size-32xl);
+  }
+  .img-6664-2-icon6 {
+    flex: 1;
+  }
+  .rectangle-parent14 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .rectangle-parent14 {
+    gap: var(--gap-8xl);
+    padding: var(--padding-25xl) var(--padding-13xl) var(--padding-8xl);
+    box-sizing: border-box;
+  }
+  .signup {
+    gap: var(--gap-mid);
+  }
+}
+@media screen and (max-width: 450px) {
+  .daftar1 {
+    font-size: var(--font-size-19xl);
+  }
+  .daftar-container {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .email3 {
+    font-size: var(--font-size-base);
+  }
+  .frame-parent25 {
+    flex-wrap: wrap;
+  }
+  .password1 {
+    font-size: var(--font-size-base);
+  }
+  .frame-parent26 {
+    flex-wrap: wrap;
+  }
+  .email5 {
+    font-size: var(--font-size-base);
+  }
+  .frame-parent27 {
+    flex-wrap: wrap;
+  }
+  .password2 {
+    font-size: var(--font-size-base);
+  }
+  .frame-parent28 {
+    flex-wrap: wrap;
+  }
+  .daftar2 {
+    font-size: var(--font-size-base);
+  }
+  .frame-wrapper25,
+  .login-button-wrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

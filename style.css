@@ -1,0 +1,1712 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background: white;
+    color: white;
+}
+
+ .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background:white;
+ }
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 30x; /* Sesuaikan ukuran logo dengan kebutuhan */
+  height: 47px;
+  margin-bottom: 20px;
+}
+
+.logo a {
+  color: #741C28;
+  text-decoration: none;
+  font-size: 16px; /* Sesuaikan ukuran teks dengan kebutuhan*/
+  font-weight: 500;
+}
+
+ .navbar a{
+    font-size: 16px;
+    color: #DF8989;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: .3s;
+ }
+
+ .navbar a:hover,
+ .navbar a.active {
+    color: #741C28;
+ }
+
+
+:root {
+    --bg-color: #fff;
+    --second-text-color: #575757;
+    --text-color: #070707;
+    --main-color: #5D1620;
+}
+
+html {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--bg-color);
+}
+
+.ruang_karir-content {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 500%;
+}
+
+.ruangkarir-teks h1 a{
+    text-decoration: none;
+    color: #000000;
+}
+.ruang_karir-content h1 {
+    text-align: center;
+    margin: 0;
+    color: #5D1620;
+}
+
+.ruang_karir-content p {
+    text-align: center;
+    margin-bottom: 30px;
+    color:#5d1620ac;
+}
+
+.navigasi-ruangkarir {
+    background-color: var(--main-color);
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    padding: 1rem 2rem;
+}
+
+.navigasi-ruangkarir ul {
+    display: flex;
+    gap: 8rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navigasi-ruangkarir ul li a {
+    text-decoration: none;
+    color: var(--bg-color);
+    font-weight: 200;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.navigasi-ruangkarir ul li a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.ruangkarir-container {
+    background-color: var(--bg-color);
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    gap: 5rem;
+    padding: 1rem 2rem;
+}
+
+.ruangkarir-img {
+    margin-right: 10px; 
+}
+
+.ruangkarir-img img {
+    width: 40vw;
+    border-radius: 10px;
+}
+
+.ruangkarir-teks {
+    flex: 1;
+    position: relative;
+}
+
+h4, .btn-profil {
+    display: inline;
+    vertical-align: middle;
+    margin-right: 10px; 
+}
+
+h1, .btn-profil {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.btn-profil {
+    color: #666464; 
+    padding: 10px 20px; 
+    border: none;
+    font-size: 30px; 
+    margin-right: 10px;
+}
+
+.ruangkarir-teks h4 {
+    margin-bottom: 10px; 
+}
+
+.ruangkarir-teks h1 {
+    margin-bottom: 20px; 
+    margin-right: 1opx;
+}
+
+.ruangkarir-teks p {
+    margin-bottom: 15px; 
+}
+
+.ruangkarir-teks h6 {
+    margin-bottom: 5px; 
+}
+
+.ruangkarir-teks h4,
+.ruangkarir-teks p,
+.ruangkarir-teks h6 {
+    color: #0b0b0b9f ; 
+}
+
+.ruangkarir_artikel {
+    display: flex;
+    flex-direction: column; 
+}
+
+.artikel-teks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px; 
+    gap: 5rem;
+    padding: 1rem 2rem;
+}
+
+.artikel-teks h1 {
+    margin-right: 10px;
+}
+
+.artikel-teks p {
+    color: #f30101;
+    text-decoration: none; 
+}
+
+.article-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr)); 
+    gap: 10px ; 
+    padding: 1rem 2rem;
+}
+
+.article-container h2 a{
+    color: #000000;
+}
+
+.article-1,
+.article-2,
+.article-3,
+.article-4 {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    width: 259px;
+}
+
+.article-1 img,
+.article-2 img,
+.article-3 img,
+.article-4 img {
+    width: 259px; 
+    margin-top: 5px; 
+    height: 259px; 
+    border-radius: 10px;
+}
+
+.btn-profil-artikel1,
+.btn-profil-artikel2,
+.btn-profil-artikel3,
+.btn-profil-artikel4 {
+    font-size: 18px; 
+    margin-right: 10px; 
+    padding: 0; 
+    border: none; 
+    background: none;
+    cursor: pointer;
+    color: #000000; 
+}
+
+.article-1 h2,
+.article-2 h2,
+.article-3 h2,
+.article-4 h2 {
+    color: black; 
+    text-decoration: none; 
+}
+
+.article-1 h2 a:hover, a:visited, a:active,
+.article-2 h2 a:hover, a:visited, a:active,
+.article-3 h2 a:hover, a:visited, a:active,
+.article-4 h2 a:hover, a:visited, a:active {
+    color: black;  
+    text-decoration: underline;
+}
+
+.article-1 h4,
+.article-2 h4,
+.article-3 h4,
+.article-4 h4 {
+    margin-top: 20px; 
+    margin-bottom: 5px; 
+    font-size: 12px; 
+    color: #07070796; 
+    display: flex; 
+    align-items: center; 
+}
+
+.article-1 h2,
+.article-2 h2,
+.article-3 h2,
+.article-4 h2 {
+    margin-top: 10px; 
+    margin-bottom: 5px;
+    font-size: 24px; 
+}
+
+.article-1 p,
+.article-2 p,
+.article-3 p,
+.article-4 p {
+    margin-top: 5px; 
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #07070796; 
+}
+
+/***personal branding***/
+.personal-branding-container h2{
+    color: #000000;
+}
+
+.personal-branding-container2 h2{
+    color: #000000;
+}
+
+.personalbranding-content {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 500%;
+}
+
+.personalbranding-content h1 {
+    text-align: center;
+    margin: 0;
+    color: #5D1620;
+}
+
+.personalbranding-content p{
+    text-align: center;
+    margin-bottom: 30px;
+    color:#5d1620ac;
+}
+
+.navigasi-personalbranding {
+    background-color: var(--main-color);
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    padding: 1rem 2rem;
+}
+
+.navigasi-personalbranding ul {
+    display: flex;
+    gap: 8rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navigasi-personalbranding ul li a {
+    text-decoration: none;
+    color: var(--bg-color);
+    font-weight: 200;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.navigasi-personalbranding ul li:first-child a {
+    border-bottom: 1px solid white;
+    padding-bottom: 3px; 
+}
+
+.personal-branding-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr)); 
+    gap: 10px ; 
+    padding: 1rem 2rem;
+}
+
+.personalbranding1,
+.personalbranding2,
+.personalbranding3,
+.personalbranding4 {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    width: 259px;
+}
+
+.personalbranding1 img,
+.personalbranding2 img,
+.personalbranding3 img,
+.personalbranding4 img {
+    width: 259px; 
+    margin-top: 5px; 
+    height: 259px; 
+    border-radius: 10px;
+}
+
+.btn-profil-personalbranding1,
+.btn-profil-personalbranding2,
+.btn-profil-personalbranding3,
+.btn-profil-personalbranding4 {
+    font-size: 18px; 
+    margin-right: 10px; 
+    padding: 0; 
+    border: none; 
+    background: none;
+    cursor: pointer;
+    color: #000000; 
+}
+
+.personalbranding1 h2 {
+    
+    color: black; 
+    text-decoration: none; 
+}
+
+.personalbranding1 h2 a:hover,
+.personalbranding1 h2 a:visited,
+.personalbranding1 h2 a:active {
+    color: black;  
+    text-decoration: underline;
+}
+
+.personalbranding1 h4,
+.personalbranding2 h4,
+.personalbranding3 h4,
+.personalbranding4 h4 {
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    font-size: 12px; 
+    color: #07070796; 
+    display: flex; 
+    align-items: center; 
+}
+.personalbranding1 p,
+.personalbranding2 p,
+.personalbranding3 p,
+.personalbranding4 p {
+    margin-top: 30px; 
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #07070796;
+}
+
+.personal-branding-container2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr)); 
+    gap: 10px ; 
+    padding: 1rem 2rem;
+}
+
+.personalbranding1-2,
+.personalbranding2-2,
+.personalbranding3-2,
+.personalbranding4-2 {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    width: 259px;
+}
+
+.personalbranding1-2 img,
+.personalbranding2-2 img,
+.personalbranding3-2 img,
+.personalbranding4-2 img {
+    width: 259px; 
+    margin-top: 5px; 
+    height: 259px; 
+    border-radius: 10px;
+}
+
+.btn-profil-personalbranding1-2,
+.btn-profil-personalbranding2-2,
+.btn-profil-personalbranding3-2,
+.btn-profil-personalbranding4-2 {
+    font-size: 18px; 
+    margin-right: 10px; 
+    padding: 0; 
+    border: none; 
+    background: none;
+    cursor: pointer;
+    color: #000000; 
+}
+
+.personalbranding1-2 h4,
+.personalbranding2-2 h4,
+.personalbranding3-2 h4,
+.personalbranding4-2 h4 {
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    font-size: 12px; 
+    color: #07070796; 
+    display: flex; 
+    align-items: center; 
+}
+.personalbranding1-2 p,
+.personalbranding2-2 p,
+.personalbranding3-2 p,
+.personalbranding4-2 p {
+    margin-top: 30px; 
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #07070796;
+}
+
+/***tips menulis cv***/
+.menulisCV-content {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 500%;
+}
+
+.menulisCV-content h1 {
+    text-align: center;
+    margin: 0;
+    color: #5D1620;
+}
+
+.menulisCV-content p{
+    text-align: center;
+    margin-bottom: 30px;
+    color:#5d1620ac;
+}
+
+.navigasi-menulisCV {
+    background-color: var(--main-color);
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    padding: 1rem 2rem;
+}
+
+.navigasi-menulisCV ul {
+    display: flex;
+    gap: 8rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navigasi-menulisCV ul li a {
+    text-decoration: none;
+    color: var(--bg-color);
+    font-weight: 200;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.navigasi-menulisCV ul li:nth-child(2) a {
+    border-bottom: 1px solid white;
+    padding-bottom: 3px; 
+}
+.menulisCV-container h2 a{
+    color: #000000;
+}
+
+.menulisCV-container h2{
+    color: #000000;
+}
+
+.menulisCV2-container h2{
+    color: #000000;
+}
+
+.menulisCV-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr)); 
+    gap: 10px ; 
+    padding: 1rem 2rem;
+}
+
+.menulisCV1,
+.menulisCV2,
+.menulisCV3,
+.menulisCV4 {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    width: 259px;
+}
+
+.menulisCV1 img,
+.menulisCV2 img,
+.menulisCV3 img,
+.menulisCV4 img {
+    width: 259px; 
+    margin-top: 5px; 
+    height: 259px; 
+    border-radius: 10px;
+}
+
+.btn-profil-menulisCV1,
+.btn-profil-menulisCV2,
+.btn-profil-menulisCV3,
+.btn-profil-menulisCV4 {
+    font-size: 18px; 
+    margin-right: 10px; 
+    padding: 0; 
+    border: none; 
+    background: none;
+    cursor: pointer;
+    color: #000000; 
+}
+
+.menulisCV1 h2 {
+    
+    color: black; 
+    text-decoration: none; 
+}
+
+.menulisCV1 h2 a:hover,
+.menulisCV1 h2 a:visited,
+.menulisCV1 h2 a:active {
+    color: black;  
+    text-decoration: underline;
+}
+
+.menulisCV1 h4,
+.menulisCV2 h4,
+.menulisCV3 h4,
+.menulisCV4 h4 {
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    font-size: 12px; 
+    color: #07070796; 
+    display: flex; 
+    align-items: center; 
+}
+.menulisCV1 p,
+.menulisCV2 p,
+.menulisCV3 p,
+.menulisCV4 p {
+    margin-top: 30px; 
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #07070796;
+}
+
+.menulisCV2-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr)); 
+    gap: 10px ; 
+    padding: 1rem 2rem;
+}
+
+.menulisCV1-2,
+.menulisCV2-2,
+.menulisCV3-2,
+.menulisCV4-2 {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    width: 259px;
+}
+
+.menulisCV1-2 img,
+.menulisCV2-2 img,
+.menulisCV3-2 img,
+.menulisCV4-2 img {
+    width: 259px; 
+    margin-top: 5px; 
+    height: 259px; 
+    border-radius: 10px;
+}
+
+.btn-profil-menulisCV1-2,
+.btn-profil-menulisCV2-2,
+.btn-profil-menulisCV3-2,
+.btn-profil-menulisCV4-2 {
+    font-size: 18px; 
+    margin-right: 10px; 
+    padding: 0; 
+    border: none; 
+    background: none;
+    cursor: pointer;
+    color: #000000; 
+}
+
+.menulisCV1-2 h4,
+.menulisCV2-2 h4,
+.menulisCV3-2 h4,
+.menulisCV4-2 h4 {
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    font-size: 12px; 
+    color: #07070796; 
+    display: flex; 
+    align-items: center; 
+}
+.menulisCV1-2 p,
+.menulisCV2-2 p,
+.menulisCV3-2 p,
+.menulisCV4-2 p {
+    margin-top: 30px; 
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #07070796;
+}
+
+/***persiapan wawancara***/
+
+.persiapan_wawancara-content {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 500%;
+}
+
+.persiapan_wawancara-content h1 {
+    text-align: center;
+    margin: 0;
+    color: #5D1620;
+}
+
+.persiapan_wawancara-content p{
+    text-align: center;
+    margin-bottom: 30px;
+    color:#5d1620ac;
+}
+
+.navigasi-persiapan_wawancara {
+    background-color: var(--main-color);
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    padding: 1rem 2rem;
+}
+
+.navigasi-persiapan_wawancara ul {
+    display: flex;
+    gap: 8rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navigasi-persiapan_wawancara ul li a {
+    text-decoration: none;
+    color: var(--bg-color);
+    font-weight: 200;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.navigasi-persiapan_wawancara ul li:nth-child(3) a {
+    border-bottom: 1px solid white;
+    padding-bottom: 3px; 
+}
+
+.persiapan_wawancara-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr)); 
+    gap: 10px ; 
+    padding: 1rem 2rem;
+}
+
+.persiapan_wawancara-container h2 a{
+    color: #000000;
+}
+
+.persiapan_wawancara-container h2 {
+    color: #000000;
+}
+
+.persiapan_wawancara2-container h2 {
+    color: #000000;
+}
+
+.persiapan_wawancara1,
+.persiapan_wawancara2,
+.persiapan_wawancara3,
+.persiapan_wawancara4 {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    width: 259px;
+}
+
+.persiapan_wawancara1 img,
+.persiapan_wawancara2 img,
+.persiapan_wawancara3 img,
+.persiapan_wawancara4 img {
+    width: 259px; 
+    margin-top: 5px; 
+    height: 259px; 
+    border-radius: 10px;
+}
+
+.btn-profil-persiapan_wawancara1,
+.btn-profil-persiapan_wawancara2,
+.btn-profil-persiapan_wawancara3,
+.btn-profil-persiapan_wawancara4 {
+    font-size: 18px; 
+    margin-right: 10px; 
+    padding: 0; 
+    border: none; 
+    background: none;
+    cursor: pointer;
+    color: #000000; 
+}
+
+.persiapan_wawancara1 h2 {
+    
+    color: black; 
+    text-decoration: none; 
+}
+
+.persiapan_wawancara1 h2 a:hover,
+.persiapan_wawancara1 h2 a:visited,
+.persiapan_wawancara1 h2 a:active {
+    color: black;  
+    text-decoration: underline;
+}
+
+.persiapan_wawancara1 h4,
+.persiapan_wawancara2 h4,
+.persiapan_wawancara3 h4,
+.persiapan_wawancara4 h4 {
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    font-size: 12px; 
+    color: #07070796; 
+    display: flex; 
+    align-items: center; 
+}
+.persiapan_wawancara1 p,
+.persiapan_wawancara2 p,
+.persiapan_wawancara3 p,
+.persiapan_wawancara4 p {
+    margin-top: 30px; 
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #07070796;
+}
+
+.persiapan_wawancara2-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr)); 
+    gap: 10px ; 
+    padding: 1rem 2rem;
+}
+
+.persiapan_wawancara1-2,
+.persiapan_wawancara2-2,
+.persiapan_wawancara3-2,
+.persiapan_wawancara4-2 {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    width: 259px;
+}
+
+.persiapan_wawancara1-2 img,
+.persiapan_wawancara2-2 img,
+.persiapan_wawancara3-2 img,
+.persiapan_wawancara4-2 img {
+    width: 259px; 
+    margin-top: 5px; 
+    height: 259px; 
+    border-radius: 10px;
+}
+
+.btn-profil-persiapan_wawancara1-2,
+.btn-profil-persiapan_wawancara2-2,
+.btn-profil-persiapan_wawancara3-2,
+.btn-profil-persiapan_wawancara4-2 {
+    font-size: 18px; 
+    margin-right: 10px; 
+    padding: 0; 
+    border: none; 
+    background: none;
+    cursor: pointer;
+    color: #000000; 
+}
+
+.persiapan_wawancara1-2 h4,
+.persiapan_wawancara2-2 h4,
+.persiapan_wawancara3-2 h4,
+.persiapan_wawancara4-2 h4 {
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    font-size: 12px; 
+    color: #07070796; 
+    display: flex; 
+    align-items: center; 
+}
+.persiapan_wawancara1-2 p,
+.persiapan_wawancara2-2 p,
+.persiapan_wawancara3-2 p,
+.persiapan_wawancara4-2 p {
+    margin-top: 30px; 
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #07070796;
+}
+
+/***strategi work-life balance***/
+
+.strategi_work_life_balance-content {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 500%;
+}
+
+.strategi_work_life_balance-content h1 {
+    text-align: center;
+    margin: 0;
+    color: #5D1620;
+}
+
+.strategi_work_life_balance-content p{
+    text-align: center;
+    margin-bottom: 30px;
+    color:#5d1620ac;
+}
+
+.navigasi-strategi_work_life_balance {
+    background-color: var(--main-color);
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    padding: 1rem 2rem;
+}
+
+.navigasi-strategi_work_life_balance ul {
+    display: flex;
+    gap: 8rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navigasi-strategi_work_life_balance ul li a {
+    text-decoration: none;
+    color: var(--bg-color);
+    font-weight: 200;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.navigasi-strategi_work_life_balance ul li:nth-child(4) a {
+    border-bottom: 1px solid white;
+    padding-bottom: 3px; 
+}
+
+.strategi_work_life_balance-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr)); 
+    gap: 10px ; 
+    padding: 1rem 2rem;
+}
+
+.strategi_work_life_balance-container h2 a{
+    color: #000000;
+}
+
+
+.strategi_work_life_balance-container h2 {
+    color: #000000;
+}
+
+
+.strategi_work_life_balance2-container h2 {
+    color: #000000;
+}
+
+.strategi_work_life_balance1,
+.strategi_work_life_balance2,
+.strategi_work_life_balance3,
+.strategi_work_life_balance4 {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    width: 259px;
+}
+
+.strategi_work_life_balance1 img,
+.strategi_work_life_balance2 img,
+.strategi_work_life_balance3 img,
+.strategi_work_life_balance4 img {
+    width: 259px; 
+    margin-top: 5px; 
+    height: 259px; 
+    border-radius: 10px;
+}
+
+.btn-profil-strategi_work_life_balance1,
+.btn-profil-strategi_work_life_balance2,
+.btn-profil-strategi_work_life_balance3,
+.btn-profil-strategi_work_life_balance4 {
+    font-size: 18px; 
+    margin-right: 10px; 
+    padding: 0; 
+    border: none; 
+    background: none;
+    cursor: pointer;
+    color: #000000; 
+}
+
+.strategi_work_life_balance1 h2 {
+    
+    color: black; 
+    text-decoration: none; 
+}
+
+.strategi_work_life_balance1 h2 a:hover,
+.strategi_work_life_balance1 h2 a:visited,
+.strategi_work_life_balance1 h2 a:active {
+    color: black;  
+    text-decoration: underline;
+}
+
+.strategi_work_life_balance1 h4,
+.strategi_work_life_balance2 h4,
+.strategi_work_life_balance3 h4,
+.strategi_work_life_balance4 h4 {
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    font-size: 12px; 
+    color: #07070796; 
+    display: flex; 
+    align-items: center; 
+}
+.strategi_work_life_balance1 p,
+.strategi_work_life_balance2 p,
+.strategi_work_life_balance3 p,
+.strategi_work_life_balance4 p {
+    margin-top: 30px; 
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #07070796;
+}
+
+.strategi_work_life_balance2-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr)); 
+    gap: 10px ; 
+    padding: 1rem 2rem;
+}
+
+.strategi_work_life_balance1-2,
+.strategi_work_life_balance2-2,
+.strategi_work_life_balance3-2,
+.strategi_work_life_balance4-2 {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    width: 259px;
+}
+
+.strategi_work_life_balance1-2 img,
+.strategi_work_life_balance2-2 img,
+.strategi_work_life_balance3-2 img,
+.strategi_work_life_balance4-2 img {
+    width: 259px; 
+    margin-top: 5px; 
+    height: 259px; 
+    border-radius: 10px;
+}
+
+.btn-profil-strategi_work_life_balance1-2,
+.btn-profil-strategi_work_life_balance2-2,
+.btn-profil-strategi_work_life_balance3-2,
+.btn-profil-strategi_work_life_balance4-2 {
+    font-size: 18px; 
+    margin-right: 10px; 
+    padding: 0; 
+    border: none; 
+    background: none;
+    cursor: pointer;
+    color: #000000; 
+}
+
+.strategi_work_life_balance1-2 h4,
+.strategi_work_life_balance2-2 h4,
+.strategi_work_life_balance3-2 h4,
+.strategi_work_life_balance4-2 h4 {
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    font-size: 12px; 
+    color: #07070796; 
+    display: flex; 
+    align-items: center; 
+}
+.strategi_work_life_balance1-2 p,
+.strategi_work_life_balance2-2 p,
+.strategi_work_life_balance3-2 p,
+.strategi_work_life_balance4-2 p {
+    margin-top: 30px; 
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #07070796;
+}
+
+/***detail personal branding1***/
+.detail_personal_branding1-content {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 500%;
+}
+
+.detail_personal_branding1-content h1 {
+    text-align: center;
+    margin: 0;
+    color: #5D1620;
+}
+
+.detail_personal_branding1-content p{
+    text-align: center;
+    margin-bottom: 30px;
+    color:#5d1620ac;
+}
+
+.navigasi-detail_personal_branding1 {
+    background-color: var(--main-color);
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    padding: 1rem 2rem;
+}
+
+.navigasi-detail_personal_branding1 ul {
+    display: flex;
+    gap: 8rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navigasi-detail_personal_branding1 ul li a {
+    text-decoration: none;
+    color: var(--bg-color);
+    font-weight: 200;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.navigasi-detail_personal_branding1 ul li:first-child a {
+    border-bottom: 1px solid white;
+    padding-bottom: 3px; 
+}
+
+.detail_personal_branding1-container {
+    width: 100%; 
+    margin: auto; 
+    padding: 20px; 
+    background: #fff; 
+    gap: 1rem 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.detail_personal_branding1-container h1 {
+    text-align: center;
+    color: #000000;
+    margin-top: 0;
+    margin-left: 400px;
+    margin-bottom: 60px;
+}
+
+.detail_personal_branding1-container .btn-profil-detail_personal_branding1 {
+    font-size: 20px; 
+    margin-right: 10px; 
+    padding: 0; 
+    border: none; 
+    background: none;
+    cursor: pointer;
+    color: #000000; 
+    margin-bottom: 30px;
+}
+
+.detail_personal_branding1-container h4 {
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    font-size: 16px; 
+    color: #07070796; 
+    display: flex; 
+    align-items: left; 
+}
+
+.detail_personal_branding1-container img {
+    width: 100%; 
+    height: 641px; 
+}
+
+.detail_personal_branding1-container h3 {
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.detail_personal_branding1-container p {
+    text-align: justify; 
+    line-height: 1.6; 
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+/***detail menulis cv***/
+.detail_menuliscv1-content {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 500%;
+}
+
+.detail_menuliscv1-content h1 {
+    text-align: center;
+    margin: 0;
+    color: #5D1620;
+}
+
+.detail_menuliscv1-content p{
+    text-align: center;
+    margin-bottom: 30px;
+    color:#5d1620ac;
+}
+
+.navigasi-detail_menuliscv1 {
+    background-color: var(--main-color);
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    padding: 1rem 2rem;
+}
+
+.navigasi-detail_menuliscv1 ul {
+    display: flex;
+    gap: 8rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navigasi-detail_menuliscv1 ul li a {
+    text-decoration: none;
+    color: var(--bg-color);
+    font-weight: 200;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.navigasi-detail_menuliscv1 ul li:nth-child(2) a {
+    border-bottom: 1px solid white;
+    padding-bottom: 3px; 
+}
+
+.detail_menuliscv1-container {
+    width: 100%; 
+    margin: auto; 
+    padding: 20px; 
+    background: #fff; 
+    gap: 1rem 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.detail_menuliscv1-container h1 {
+    text-align: center;
+    color: #000000;
+    margin-top: 0;
+    margin-left: 400px;
+    margin-bottom: 60px;
+}
+
+.detail_menuliscv1-container .btn-profil-detail_menuliscv1 {
+    font-size: 20px; 
+    margin-right: 10px; 
+    padding: 0; 
+    border: none; 
+    background: none;
+    cursor: pointer;
+    color: #000000; 
+    margin-bottom: 30px;
+}
+
+.detail_menuliscv1-container h4 {
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    font-size: 16px; 
+    color: #07070796; 
+    display: flex; 
+    align-items: left; 
+}
+
+.detail_menuliscv1-container img {
+    width: 100%; 
+    height: 641px; 
+}
+
+.detail_menuliscv1-container h3 {
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.detail_menuliscv1-container p {
+    text-align: justify; 
+    line-height: 1.6; 
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+/*** detail persiapan wawancaraa***/
+
+.detail_persiapan_wawancara1-content {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 500%;
+}
+
+.detail_persiapan_wawancara1-content h1 {
+    text-align: center;
+    margin: 0;
+    color: #5D1620;
+}
+
+.detail_persiapan_wawancara1-content p{
+    text-align: center;
+    margin-bottom: 30px;
+    color:#5d1620ac;
+}
+
+.navigasi-detail_persiapan_wawancara1 {
+    background-color: var(--main-color);
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    padding: 1rem 2rem;
+}
+
+.navigasi-detail_persiapan_wawancara1 ul {
+    display: flex;
+    gap: 8rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navigasi-detail_persiapan_wawancara1 ul li a {
+    text-decoration: none;
+    color: var(--bg-color);
+    font-weight: 200;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.navigasi-detail_persiapan_wawancara1 ul li:nth-child(3) a {
+    border-bottom: 1px solid white;
+    padding-bottom: 3px; 
+}
+
+.detail_persiapan_wawancara1-container {
+    width: 100%; 
+    margin: auto; 
+    padding: 20px; 
+    background: #fff; 
+    gap: 1rem 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.detail_persiapan_wawancara1-container h1 {
+    text-align: center;
+    color: #000000;
+    margin-top: 0;
+    margin-left: 300px;
+    margin-bottom: 60px;
+}
+
+.detail_persiapan_wawancara1-container .btn-profil-detail_persiapan_wawancara1 {
+    font-size: 20px; 
+    margin-right: 10px; 
+    padding: 0; 
+    border: none; 
+    background: none;
+    cursor: pointer;
+    color: #000000; 
+    margin-bottom: 30px;
+}
+
+.detail_persiapan_wawancara1-container h4 {
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    font-size: 16px; 
+    color: #07070796; 
+    display: flex; 
+    align-items: left; 
+}
+
+.detail_persiapan_wawancara1-container img {
+    width: 100%; 
+    height: 641px; 
+}
+
+.detail_persiapan_wawancara1-container h3 {
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.detail_persiapan_wawancara1-container p {
+    text-align: justify; 
+    line-height: 1.6; 
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+/*** detail strategi work life ***/
+.detail_strategi_worklife_balance1-content {
+    margin-top: 120PX;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 500%;
+}
+
+.detail_strategi_worklife_balance1-content h1 {
+    text-align: center;
+    margin: 0;
+    color: #5D1620;
+}
+
+.detail_strategi_worklife_balance1-content p{
+    text-align: center;
+    margin-bottom: 30px;
+    color:#5d1620ac;
+}
+
+.navigasi-detail_strategi_worklife_balance1 {
+    background-color: var(--main-color);
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    padding: 1rem 2rem;
+}
+
+.navigasi-detail_strategi_worklife_balance1 ul {
+    display: flex;
+    gap: 8rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navigasi-detail_strategi_worklife_balance1 ul li a {
+    text-decoration: none;
+    color: var(--bg-color);
+    font-weight: 200;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.navigasi-detail_strategi_worklife_balance1 ul li:nth-child(4) a {
+    border-bottom: 1px solid white;
+    padding-bottom: 3px; 
+}
+
+.detail_strategi_worklife_balance1-container {
+    width: 100%; 
+    margin: auto; 
+    padding: 20px; 
+    background: #fff; 
+    gap: 1rem 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.detail_strategi_worklife_balance1-container h1 {
+    text-align: center;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 250px;
+    margin-bottom: 60px;
+}
+
+.detail_strategi_worklife_balance1-container .btn-profil-detail_strategi_worklife_balance1 {
+    font-size: 20px; 
+    margin-right: 10px; 
+    padding: 0; 
+    border: none; 
+    background: none;
+    cursor: pointer;
+    color: #000000; 
+    margin-bottom: 30px;
+}
+
+.detail_strategi_worklife_balance1-container h4 {
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    font-size: 16px; 
+    color: #07070796; 
+    display: flex; 
+    align-items: left; 
+}
+
+.detail_strategi_worklife_balance1-container img {
+    width: 100%; 
+    height: 641px; 
+}
+
+.detail_strategi_worklife_balance1-container h3 {
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.detail_strategi_worklife_balance1-container p {
+    text-align: justify; 
+    line-height: 1.6; 
+    margin-bottom: 30px;
+    color: #000000;
+}
+/*** detail utama ruang karir***/
+.detail_utama-content {
+    margin-top: 120PX;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 500%;
+}
+
+.detail_utama-content h1 {
+    text-align: center;
+    margin: 0;
+    color: #5D1620;
+}
+
+.detail_utama-content p{
+    text-align: center;
+    margin-bottom: 30px;
+    color:#5d1620ac;
+}
+
+.navigasi-detail_utama {
+    background-color: var(--main-color);
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    padding: 1rem 2rem;
+}
+
+.navigasi-detail_utama ul {
+    display: flex;
+    gap: 8rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navigasi-detail_utama ul li a {
+    text-decoration: none;
+    color: var(--bg-color);
+    font-weight: 200;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.navigasi-utama ul li:nth-child(4) a {
+    border-bottom: 1px solid white;
+    padding-bottom: 3px; 
+}
+
+.detail_utama-container {
+    width: 100%; 
+    margin: auto; 
+    padding: 20px; 
+    background: #fff; 
+    gap: 1rem 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.detail_utama-container h1 {
+    text-align: center;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 400px;
+    margin-bottom: 60px;
+}
+
+.detail_utama-container .btn-profil-detail_utama {
+    font-size: 20px; 
+    margin-right: 10px; 
+    padding: 0; 
+    border: none; 
+    background: none;
+    cursor: pointer;
+    color: #000000; 
+    margin-bottom: 30px;
+}
+
+.detail_utama-container h4 {
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    font-size: 16px; 
+    color: #07070796; 
+    display: flex; 
+    align-items: left; 
+}
+
+.detail_utama-container img {
+    width: 100%; 
+    height: 641px; 
+}
+
+.detail_utama-container h3 {
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.detail_utama-container p {
+    text-align: justify; 
+    line-height: 1.6; 
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+/* footer */
+
+
+.footer {
+    margin-top: 100px;
+    position: relative; /* Memastikan .footer adalah kontainer relatif */
+    background-image: url('images/footer_ruang.png');
+    background-size: cover;
+    width: 1500px;
+    height: 455.24px;
+}
+
+.footer a {
+    position: absolute; /* Mengubah ikon 'a' menjadi posisi absolut */
+    top: 50%; /* Menempatkannya di tengah vertikal */
+    right: 0; /* Menempatkannya di sisi kanan */
+    padding: 10px; /* Tambahan padding untuk ikon */
+    transform: translateX(-69px) translateY(-120px);
+   
+  }
+  
+  .footer a:nth-child(1) {
+    right: 0; /* Atur jarak antara ikon pertama */
+  }
+
+  .footer a:nth-child(2) {
+    right: 40px; /* Atur jarak antara ikon */
+  }
+  
+  .footer a:nth-child(3) {
+    right: 80px; /* Atur jarak antara ikon */
+  }
+  
+  /* Gaya ikon */
+  .footer a i {
+    color:black; /* Warna ikon */
+    font-size: 24px; /* Ukuran ikon */
+  }
+  
+  /* Contoh pengaturan gaya lainnya */
+  .footer a:hover {
+    color: #ededed;
+  }

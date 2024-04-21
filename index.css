@@ -1,0 +1,83 @@
+.container{
+    display: flex;
+    align-items: center;
+    animation: slideIn 1s ease forwards;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.logo_masuk img{
+    height: 802px;
+    width: 565px;
+    margin-top: 111px;
+    text-align: left;
+    margin-bottom: 111px;
+    margin-left: 91px;
+    margin-right: 91px;
+  }
+
+.teks_logo img{
+    width: 709px;
+    height: 1024px;
+    text-align: right;
+}
+
+.btn-get1 a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+.btn-get1 {
+    position: absolute;
+    background-color: #D69E9E; /* Warna latar */
+    border: none; /* Menghapus garis tepi */
+    color: white; /* Warna teks */
+    padding: 15px 30px; /* Padding vertikal dan horizontal */
+    text-align: center; /* Teks di tengah */
+    text-decoration: none; /* Menghapus garis bawah */
+    display: inline-block;
+    font-size: 64px; /* Ukuran teks */
+    border-radius: 40px; /* Border radius */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Bayangan */
+    width: 266px; /* Panjang horizontal */
+    font-weight: bold;
+    cursor: pointer;
+    transform: translateY(200px)translateX(520px);
+    animation: slideInButton 1s ease forwards;
+  }
+
+
+
+
+  .btn-get2 a{
+    text-decoration: none;
+    color: #741C28;
+}
+  .btn-get2 {
+        position: absolute;
+        background-color: white; /* Warna latar */
+        border: none; /* Menghapus garis tepi */
+        color: #741C28; /* Warna teks */
+        padding: 15px 30px; /* Padding vertikal dan horizontal */
+        text-align: center; /* Teks di tengah */
+        text-decoration: none; /* Menghapus garis bawah */
+        display: inline-block;
+        font-size: 64px; /* Ukuran teks */
+        border-radius: 40px; /* Border radius */
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Bayangan */
+        width: auto; /* Panjang horizontal */
+        font-weight: bold;
+        cursor: pointer;
+        transform: translateY(200px)translateX(700px);
+        animation: slideInButton 1s ease forwards;
+      } 
+

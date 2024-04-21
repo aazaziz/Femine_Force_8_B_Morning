@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background: white;
+    color: white;
+}
+
+ .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background:white;
+ }
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 30x; /* Sesuaikan ukuran logo dengan kebutuhan */
+  height: 47px;
+  margin-bottom: 20px;
+}
+
+.logo a {
+  color: #741C28;
+  text-decoration: none;
+  font-size: 16px; /* Sesuaikan ukuran teks dengan kebutuhan*/
+  font-weight: 500;
+}
+
+ .navbar a{
+    font-size: 16px;
+    color: #DF8989;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: .3s;
+ }
+
+ .navbar a:hover,
+ .navbar a.active {
+    color: #741C28;
+ }
+
+ /* highlight */
+ .highlight {
+    text-align: center;
+    margin-top: 100px; /* jarak antara navbar dan highlight */
+}
+
+.highlight img {
+    width: 1200px; /* agar gambar highlight mencakup lebar halaman */
+    height: 330px; /* lebar maksimum gambar highlight */
+}
+
+/* text terbaru */
+.text{
+    display: flex;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 145px;
+}
+
+.text h4{
+    font-size:20px;
+    color: black;
+}
+
+.text img{
+  width: 30px; /* Sesuaikan ukuran logo dengan kebutuhan Anda */
+  height: 30px;
+}
+
+.line {
+    margin-top: absolute;
+    width: 1200px; /* panjang garis */
+    height: 1px; /* ketebalan garis */
+    background-color: black; /* warna garis */
+    margin: auto; /* margin di atas dan bawah garis, dan auto untuk penempatan di tengah */
+}
+
+.text-article{
+    margin-top: 20px;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+}
+
+/* article container */
+.articles-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article{
+    text-align: left;
+    margin-top: 20px;
+    max-width: 235px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.article img{
+    width: 235px;
+    height: 135px;
+}
+
+.article p{
+    font-size: 12px;
+    color: #B3B2B2;
+}
+
+
+.article a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+
+/* bagian videos */
+
+.text-video{
+    margin-top: 40px;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+}
+
+/* videos container */
+.videos-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.videos{
+    text-align: center;
+    margin-top: 20px;
+    max-width: 235px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.videos img{
+    width: 235px;
+    height: 135px;
+}
+
+.videos a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+/* bagian ruang karir */
+
+.text-karir{
+    margin-top: 40px;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+}
+
+/* videos container */
+.karir-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.karir{
+    text-align: center;
+    margin-top: 20px;
+    max-width: 235px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.karir img{
+    width: 235px;
+    height: 135px;
+}
+
+.karir a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+/* caption */
+.caption{
+    margin-top: 60px;
+}
+
+.caption img{
+    width: 1500px;
+    height:108px;
+}
+
+
+/* komunitas */
+.komuitas {
+    position: relative; /* Menetapkan posisi relatif untuk kontainer */
+    text-align: center;
+    margin-top: 60px; /* Sesuaikan dengan kebutuhan Anda */
+}
+
+.komuitas img {
+    width: 1310px;
+   height: 354.89px;
+}
+
+.btn {
+    position: absolute; /* Menetapkan posisi absolut untuk tombol */
+    bottom: 20px; /* Sesuaikan jarak dari bawah */
+    left: 50%; /* Menempatkan tombol di tengah horizontal */
+    transform: translateX(-55%); /* Menggeser tombol ke kiri sebanyak setengah dari lebarnya */
+    padding: 10px 20px; /* Sesuaikan dengan kebutuhan Anda */
+    background-color: #DF6363; /* Sesuaikan dengan warna latar belakang tombol */
+    color: black;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 30px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+    background-color: #FF4582; /* Sesuaikan dengan warna latar belakang tombol saat dihover */
+}
+
+/* bagian teks about */
+.text-about{
+    margin-top: 40px;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+
+/* about */
+.bothom {
+    text-align: center;
+    margin-top: 50px; /* jarak antara navbar dan highlight */
+}
+
+.bothom img {
+    width: 546.5px; /* agar gambar highlight mencakup lebar halaman */
+    height: 305px; /* lebar maksimum gambar highlight */
+}
+
+.about {
+    margin-top: 40px;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+}
+
+/* button about */
+.btn-about{
+    margin-right: 100px;
+    margin-top: 40px;
+    padding: 10px 20px; /* Sesuaikan dengan kebutuhan Anda */
+    background-color: #DF6363; /* Sesuaikan dengan warna latar belakang tombol */
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 30px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    float: right; /* Menentukan posisi tombol ke kanan */
+    font-style: italic;
+}
+
+.btn-about:hover {
+    background-color: #FF4582; /* Sesuaikan dengan warna latar belakang tombol saat dihover */
+}
+
+
+/* footer */
+.footer {
+    margin-top: 100px;
+    position: relative; /* Memastikan .footer adalah kontainer relatif */
+    background-image: url('asset/fot2.png');
+    background-size: cover;
+    width: 1500px;
+    height: 455.24px;
+}
+
+.footer a {
+    position: absolute; /* Mengubah ikon 'a' menjadi posisi absolut */
+    top: 50%; /* Menempatkannya di tengah vertikal */
+    right: 0; /* Menempatkannya di sisi kanan */
+    padding: 10px; /* Tambahan padding untuk ikon */
+    transform: translateX(-75px) translateY(-120px);
+   
+  }
+  
+  .footer a:nth-child(1) {
+    right: 0; /* Atur jarak antara ikon pertama */
+  }
+
+  .footer a:nth-child(2) {
+    right: 40px; /* Atur jarak antara ikon */
+  }
+  
+  .footer a:nth-child(3) {
+    right: 80px; /* Atur jarak antara ikon */
+  }
+  
+  /* Gaya ikon */
+  .footer a i {
+    color:black; /* Warna ikon */
+    font-size: 24px; /* Ukuran ikon */
+  }
+  
+  /* Contoh pengaturan gaya lainnya */
+  .footer a:hover {
+    color: #ededed;
+  }

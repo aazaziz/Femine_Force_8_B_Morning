@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background: white;
+    color: white;
+}
+
+ .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background:white;
+ }
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 30x; /* Sesuaikan ukuran logo dengan kebutuhan */
+  height: 47px;
+  margin-bottom: 20px;
+}
+
+.logo a {
+  color: #741C28;
+  text-decoration: none;
+  font-size: 16px; /* Sesuaikan ukuran teks dengan kebutuhan*/
+  font-weight: 500;
+}
+
+ .navbar a{
+    font-size: 16px;
+    color: #DF8989;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: .3s;
+ }
+
+ .navbar a:hover,
+ .navbar a.active {
+    color: #741C28;
+ }
+
+ /* text awal about */
+ .awal p{
+    font-family: "Inria Serif", serif;
+    margin-top: 100px;
+    font-size: 32px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+ }
+
+/* gambar awal about */
+ .gambar{
+    margin-top: 40px;
+    text-align: center;
+ }
+
+ .gambar img{
+    width: 500px;
+    height: 325px;
+ }
+
+ /* text bawah gambar */
+ .kedua p{
+    color: black;
+    margin-top: 20px;
+    text-align: center;
+    max-width: 800px;
+    font-size: 18px;
+    margin-left: 340px;
+ }
+
+ /* text program */
+ .program p{
+    text-align: center;
+    margin-top: 40px;
+    color: black;
+    font-size: 32px;
+    font-family: "Inria Serif", serif;
+    font-weight: bold;
+ }
+
+ /* card program */
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    text-align: left;
+    margin-top: 40px;
+    max-width: 235px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.card img{
+    width: 204px;
+    height: 286px;
+}
+
+ /* card program2 */
+ .cardl-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardl{
+    text-align: left;
+    margin-top: 20px;
+    max-width: 235px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.cardl img{
+    width: 204px;
+    height: 286px;
+}
+
+/* unduh */
+.unduh{
+    margin-top: 40px;
+    text-align: center;
+}
+.unduh img{
+    width: 1206px;
+    height: 219px;
+}
+
+/* btn unduh */
+.btn{
+    position: absolute;
+    padding: 10px 60px; /* Sesuaikan dengan kebutuhan Anda */
+    background-color: #e89797; /* Sesuaikan dengan warna latar belakang tombol */
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    transform: translateX(-200px)translateY(120px);
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #FF4582; /* Sesuaikan dengan warna latar belakang tombol saat dihover */
+}
+
+/* tim kami */
+.text-tim p{
+    color: black;
+    text-align: center;
+    font-size: 32px;
+    font-family: "Inria Serif", serif;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+/* nama anggota */
+.nama-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nama{
+    max-width: 280px;
+    text-align: center;
+    margin: 40px 50px;
+}
+
+.nama p{
+   margin-top: 10px;
+    color: black;
+    font-size: 18px;
+    
+}
+
+.nama .satu{
+    font-size: 17px;
+} 
+
+.nama img{
+    margin-top: 10px;
+    width: 209px;
+    height: 207px;
+}
+
+/* nama anggota 2 */
+.nama1-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nama1{
+    max-width: 280px;
+    text-align: center;
+    margin: 40px 50px;
+
+}
+
+.nama1 p{
+   margin-top: 20px;
+    color: black;
+    font-size: 18px;
+    
+}
+
+.nama1 .satu{
+    font-size: 17px;
+} 
+
+.nama1 img{
+    margin-top: 10px;
+    width: 209px;
+    height: 207px;
+}
+
+/* footer */
+
+
+.footer {
+    margin-top: 40px;
+    position: relative; /* Memastikan .footer adalah kontainer relatif */
+    background-image: url('asset/fot2.png');
+    background-size: cover;
+    width: 1500px;
+    height: 455.24px;
+}
+
+.footer a {
+    position: absolute; /* Mengubah ikon 'a' menjadi posisi absolut */
+    top: 50%; /* Menempatkannya di tengah vertikal */
+    right: 0; /* Menempatkannya di sisi kanan */
+    padding: 10px; /* Tambahan padding untuk ikon */
+    transform: translateX(-75px) translateY(-120px);
+   
+  }
+  
+  .footer a:nth-child(1) {
+    right: 0; /* Atur jarak antara ikon pertama */
+  }
+
+  .footer a:nth-child(2) {
+    right: 40px; /* Atur jarak antara ikon */
+  }
+  
+  .footer a:nth-child(3) {
+    right: 80px; /* Atur jarak antara ikon */
+  }
+  
+  /* Gaya ikon */
+  .footer a i {
+    color:black; /* Warna ikon */
+    font-size: 24px; /* Ukuran ikon */
+  }
+  
+  /* Contoh pengaturan gaya lainnya */
+  .footer a:hover {
+    color: #ededed;
+  }

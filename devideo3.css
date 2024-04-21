@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background: #F8EDEB;
+    color: #F8EDEB;
+}
+
+ .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background:#F8EDEB;
+ }
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 30x; /* Sesuaikan ukuran logo dengan kebutuhan */
+  height: 47px;
+  margin-bottom: 20px;
+}
+
+.logo a {
+  color: #741C28;
+  text-decoration: none;
+  font-size: 16px; /* Sesuaikan ukuran teks dengan kebutuhan*/
+  font-weight: 500;
+}
+
+ .navbar a{
+    font-size: 16px;
+    color: #DF8989;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: .3s;
+ }
+
+ .navbar a:hover,
+ .navbar a.active {
+    color: #741C28;
+ }
+
+ /* caption pemfe */
+ .caption-pemfe{
+    margin-top: 100px;
+    text-align: center;
+  }
+  
+  .caption-pemfe img{
+    width: 1308px;
+    height: 122px;
+  }
+  
+  /* pemfe 1 */
+.pemfe1-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pemfe{
+    text-align: center;
+    margin-top: 20px;
+    max-width: 235px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.pemfe img{
+    width: 235px;
+    height: 135px;
+}
+
+.pemfe a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+
+  /* pemfe 2 */
+  .pemfe2-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pemfe1{
+  text-align: center;
+  margin-top: 70px;
+  max-width: 235px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.pemfe1 img{
+  width: 235px;
+  height: 135px;
+}
+
+.pemfe1 a {
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+}
+
+
+  /* pemfe 3 */
+  .pemfe3-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pemfe2{
+  text-align: center;
+  margin-top: 70px;
+  max-width: 235px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.pemfe2 img{
+  width: 235px;
+  height: 135px;
+}
+
+.pemfe2 a {
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+}
+
+
+  /* pemfe 4 */
+  .pemfe4-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pemfe3{
+  text-align: center;
+  margin-top: 70px;
+  max-width: 235px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.pemfe3 img{
+  width: 235px;
+  height: 135px;
+}
+
+.pemfe3 a {
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+}
+
+/* tombol kanan kiri */
+.leftright a i {
+  font-size: 60px;
+  color: #000;
+  }
+  
+  .leftright .bx-chevron-right-circle{
+   position: absolute;
+   transform: translateX(1133px);
+  }
+
+  .leftright .bx-chevron-left-circle{
+    position: absolute;
+    transform: translateX(1050px);
+
+   }
+
+
+   /* footer */
+   .footer {
+    margin-top: 100px;
+    position: relative; /* Memastikan .footer adalah kontainer relatif */
+    background-image: url('asset/footervideo.png');
+    background-size: cover;
+    width: 1500px;
+    height: 455.24px;
+  }
+  
+  .footer a {
+    position: absolute; /* Mengubah ikon 'a' menjadi posisi absolut */
+    top: 50%; /* Menempatkannya di tengah vertikal */
+    right: 0; /* Menempatkannya di sisi kanan */
+    padding: 10px; /* Tambahan padding untuk ikon */
+    transform: translateX(-83px) translateY(-120px);
+   
+  }
+  
+  .footer a:nth-child(1) {
+    right: 0; /* Atur jarak antara ikon pertama */
+  }
+  
+  .footer a:nth-child(2) {
+    right: 40px; /* Atur jarak antara ikon */
+  }
+  
+  .footer a:nth-child(3) {
+    right: 80px; /* Atur jarak antara ikon */
+  }
+  
+  /* Gaya ikon */
+  .footer a i {
+    color:black; /* Warna ikon */
+    font-size: 24px; /* Ukuran ikon */
+  }
+  
+  /* Contoh pengaturan gaya lainnya */
+  .footer a:hover {
+    color: #ededed;
+  }
